@@ -1,0 +1,38 @@
+
+ <div class="bg-col-grey">
+    <div class="container text-center">
+        <div class="text-space-between">
+            <h1 class="current-page-text-white">MY WISHLIST</h1>
+            <p class="p-text-white">Wishlist items are saved for 30 days.</p>
+        </div>
+        <div class="row parent-row">
+            <!---EACH INDIVIDUAL ITEM STARTS HERE-->
+            {{#each products as |productInfo|}}
+            <div class="col-lg-4 col-md-6 col-sm-12 product-container-white">
+                <div class="row">
+                    <div class="col product-image">
+                        <img class="product-image-sizing" src="{{productInfo.product.image}}" alt="bag">
+                    </div>
+                    <div class="col product-details">
+                        <input id="wishlist-id" type="hidden" value="{{id}}">
+                        <input id="user-id" type="hidden" value="{{user_id}}">
+                        <input id="product-id" type="hidden" value="{{productInfo.product_id}}">
+                        <button type="submit" data-id="{{id}}" id="x" class="btn btn-light cross-btn-styling">X</button>
+                        <h2 class="product-title">{{productInfo.product.product_name}}</h2>
+                        <p class="product-price">{{productInfo.products.price}}</p>
+                        <p class="product-description">{{productInfo.product.description}}</p>
+                    <div class="qty">
+                    <label for="quantity">Quantity:</label>
+                    <input id="quantity" value="1" name="quantity" min="1" max="1"> 
+                    </div>
+                        <button class="btn btn-dark btn-styling wl-add-cart-btn" data-id="{{productInfo.product_id}}">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+           {{/each}}
+        </div>
+    </div>
+</div>
+         
+
+<script src="/js/wishlist.js"></script>

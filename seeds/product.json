@@ -1,0 +1,192 @@
+[
+    {   
+        "id": 1,
+        "product_name": "Bose Noise Cancelling Headphones 700",
+        "description": "World-class adjustable noise cancellation—with situational awareness for when you want to let the world in.",
+        "price": 299.99,
+        "image": "/images/bose-headphones.webp",
+        "stock": 2,
+        "featured": true,
+        "category_id": 1,
+        "user_id": 1
+    
+    },
+    {   
+        "id": 2,
+        "product_name": "Nike Air Force 1 '07",
+        "description": "The radiance lives on in the Nike Air Force 1 '07",
+        "price": 109.00,
+        "image": "/images/Nike-air.webp",
+        "featured": true,
+        "stock": 1,
+        "category_id": 2,
+        "user_id": 2
+    },
+    {   
+        "id": 3,
+        "product_name": "Gym Shark CRITICAL ZIP JOGGERS",
+        "description": "The joggers every gym bag needs: understated, comfortable and reliable. The multi-fabric construction of the Critical Joggers offers the stretch to support and endure training session upon training session.",
+        "price": 35.00,
+        "image": "/images/joggers.webp",
+        "stock": 15,
+        "featured": false,
+        "category_id": 3,
+        "user_id": 3
+    },
+    {   
+        "id": 4,
+        "product_name": "NINJA Foodi Dual Zone 7.6L Air Fryer",
+        "description": "2 FOODS, 2 WAYS TO COOK. The air fryer that cooks 2 foods, 2 ways, and finishes at the same time. With 2 separate cooking drawers, you can cook different foods with different temperatures, times and functions",
+        "price": 199.99,
+        "image": "/images/airfryer.webp", 
+        "stock": 10,
+        "featured": false,
+        "category_id": 7,
+        "user_id": 4
+    
+    },
+    {   
+        "id": 5,
+        "product_name": "Xbox Series S",
+        "description": "peed and performance of a next-gen all-digital console at an accessible price point. Get started with an instant library of 100+ high quality games",
+        "price": 249.99,
+        "image": "/images/xbox.jpg",
+        "stock": 63,
+        "featured": true,
+        "category_id": 1,
+        "user_id": 1
+    },
+    {   
+        "id": 6,
+        "product_name": "Nike Air Jordan Point Lane",
+        "description": "The Jordan Point Lane mixes elements from game shoes MJ w",
+        "price": 109.00,
+        "image": "/images/jordans.webp", 
+        "stock": 33,
+        "featured": true,
+        "category_id": 2,
+        "user_id": 2
+    
+    },
+    {   
+        "id": 7,
+        "product_name": "All Saints BRACE PULLOVER HOODIE",
+        "description": "The Brace Hoodie. Cut from pure cotton ",
+        "price": 109.00,
+        "image": "/images/hoodie.jpg",
+        "stock": 26,
+        "featured": false,
+        "category_id": 3,
+        "user_id": 3
+    },
+    {   
+        "id": 8,
+        "product_name": "Samsung 8 Series RH68B8830S9 Freestanding 65/35 American Fridge Freezer, Silver",
+        "description": "This American-style fridge freezer from Samsung boasts a spac",
+        "price": 2099.00,
+        "image": "/images/fridge.webp",
+        "stock": 4,
+        "featured": false,
+        "category_id": 7,
+        "user_id": 4
+    },
+    {   
+        "id": 9,
+        "product_name": "DEWALT DCD778D2T-SFGB 18V 2 X 2.0AH LI-ION XR BRUSHLESS CORDLESS COMBI DRILL ",
+        "description": "Compact and ergonomic combi drill with 18V brushless motor and XR tec",
+        "price": 209.00,
+        "image": "/images/driver.webp",
+        "stock": 17,
+        "featured": true,
+        "category_id": 1,
+        "user_id": 1
+    },
+    {   
+        "id": 10,
+        "product_name": "3PC Corner Sofa Rattan Lounger Set",
+        "description": "Rattan set includes following. 1 x Three Seat Rattan Sofa- 1",
+        "price": 100.00,
+        "image": "/images/sofa.jpg",
+        "stock": 4,
+        "featured": false,
+        "category_id": 6,
+        "user_id": 2
+    },
+    {   
+        "id": 11,
+        "product_name": "Rolling Stones Colorful Contemporary Graffiti Pop Art Canvas Print Wall Art",
+        "description": "Pop art inspired Rainbow and Graffiti Rolling Stones. Fill in boring empty wa",
+        "price": 60.00,
+        "image": "/images/art.webp",
+        "stock": 9,
+        "featured": true,
+        "category_id": 7,
+        "user_id": 3
+    },
+    {   
+        "id": 12,
+        "product_name": "GG Matelassé mini bag in green",
+        "description": "Green GG Matelassé leather,Gold-toned hardware, Cotton linen lining ,Double G, This style is sold with an additional shoulder strap which can be attached to the bag with a buckle closure, W19cm x H13cm x D11cm. Made in Italy",
+        "price": 1900.00,
+        "image": "/images/GGreenbag.webp",
+        "stock": 1,
+        "featured": false,
+        "category_id": 4,
+        "user_id": 2
+    },
+    {   
+        "id": 13,
+        "product_name": "GG Matelassé mini bag in Black",
+        "description": "Black GG Matelassé leather,Gold-toned hardware, Cotton linen lining ,Double G, This style is sold with an additional shoulder strap which can be attached to the bag with a buckle closure, W19cm x H13cm x D11cm. Made in Italy",
+        "price": 1900.00,
+        "image": "/images/GBlackbag.webp",
+        "stock": 1,
+        "featured": true,
+        "category_id": 4,
+        "user_id": 2
+    },
+    {   
+        "id": 14,
+        "product_name": "Briefcase with Interlocking G",
+        "description": "Black GG Supreme canvas. Black leather trim with cotton linen lining, Oval leather Interlocking G tag. Inside: 1 padded laptop compartment. Outside: 1 front and 1 back open pocket. Shoulder strap with 50cm drop",
+        "price": 1490.00,
+        "image": "/images/GManBag.webp",
+        "stock": 1,
+        "featured": true,
+        "category_id": 4,
+        "user_id": 3
+    },
+    {   
+        "id": 15,
+        "product_name": "Pure Shots Lines Away Serum",
+        "description": "HELPS TO REDUCE THE APPEARANCE OF LINES AND WRINKLES LINES AWAY SERUM contains 0.01% Hyaluronic Acid",
+        "price": 59.00,
+        "image": "/images/yslserum.jpeg",
+        "stock": 1,
+        "featured": true,
+        "category_id": 5,
+        "user_id": 3
+    },
+    {   
+        "id": 16,
+        "product_name": "Rouge Pur Couture THE BOLD",
+        "description": "Couture shine SO INTENSE yet so thin in a buildable texture",
+        "price": 32.00,
+        "image": "/images/yslstick.jpeg",
+        "stock": 1,
+        "featured": true,
+        "category_id": 5,
+        "user_id": 1
+    },
+    {   
+        "id": 17,
+        "product_name": "Rouge Pur Couture THE BOLD in Red",
+        "description": "Couture shine SO INTENSE yet so thin in a buildable texture",
+        "price": 32.00,
+        "image": "/images/yslstickred.jpeg",
+        "stock": 1,
+        "featured": false,
+        "category_id": 5,
+        "user_id": 4
+    }
+]

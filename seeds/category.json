@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "category_name": "Electronics"
+  },
+  {
+    "id": 2,
+    "category_name": "Shoes"
+  },
+  {
+    "id": 3,
+    "category_name": "Clothing"
+  },
+  {
+    "id": 4,
+    "category_name": "Accessories"
+  },
+  {
+    "id": 5,
+    "category_name": "Beauty"
+  },
+  {
+    "id": 6,
+    "category_name": "Garden"
+  },
+  {
+    "id": 7,
+    "category_name": "Homeware"
+  }
+]

@@ -1,0 +1,30 @@
+<div class="header" style="margin-top: 5%; margin-bottom: 2%; font-family: Nunito, sans-serif; font-size: 1.2rem; font-weight: 600;">ACTIVE lISTINGS</div>
+<div class="row parent-row">
+  {{#each products}}
+      <div class="col-lg-4 col-md-6 col-sm-12 product-container-dashboard">
+        <div class="row active-listing">
+            <p class="active-listing-title">ACTIVE LISTING</p>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col product-image">
+                <img class="product-image-sizing" src="{{this.image}}" alt="bag">
+            </div>
+            <div class="col product-details-active-listing">
+                <h2 class="product-title">{{this.product_name}}</h2>
+                <p class="product-price">£{{this.price}}</p>
+                <p class="product-description">{{this.description}}</p>
+            </div>
+        </div>
+        <div class="row btn-row">
+            <hr>
+            <a href="dashboard/edit/{{this.id}}" class="btn btn-dark btn-styling edit-btn">EDIT</a>
+            <button type="submit" class="btn btn-danger btn-styling delete-btn" data-id="{{this.id}}">DELETE</button>
+        </div>
+      </div>
+    {{/each}}
+  <!--EACH INDIVIDUAL ITEM ENDS HERE --> 
+</div>
+<br>
+
+<script src="/js/delete.js"></script>
